@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/Name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Game name"
+      android:textSize="20dp"
+      />
+<TextView
+    android:id="@+id/rollno"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Release Date"
+    android:textSize="20dp"
+    />
+  <TextView
+      android:id="@+id/ver1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:text="Version"
+    android:textSize="20dp"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete"
+    android:textSize="20dp"  />
+
+
+</LinearLayout>
